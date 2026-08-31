@@ -19,7 +19,7 @@ All planning documents are in the `/docs` folder:
 
 ## CI/CD Status
 
-![CI/CD Build]()
+![CI/CD Build](https://github.com/moya2103/RaceDay/blob/main/.github/workflows/ci-success.png)
 
 
 ## Setup Instructions
