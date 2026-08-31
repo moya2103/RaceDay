@@ -23,6 +23,16 @@ All planning documents are in the `/docs` folder:
 
 ![CI/CD Build](https://github.com/moya2103/RaceDay/blob/main/.github/workflows/ci-success.png)
 
+## Project Structure
+RaceDay/
+├── .github/workflows/ci.yml 
+├── docs/
+│ ├── ERD.pdf 
+│ ├── API_Endpoint_Plan.pdf
+│ └── RaceDay_DatabaseScript.sql
+├── README.md
+└── .gitignore
+
 ## Setup Instructions
 
 1. Clone the repository
