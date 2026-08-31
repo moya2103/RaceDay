@@ -15,7 +15,7 @@ RaceDay is a full-stack web-based event management system designed specifically 
 
 All planning documents are in the `/docs` folder:
 
-- `ERD.pdf` - Entity Relationship Diagram
+- `ERD.pdf` - Entity Relationship Diagram for database
 - `API_Endpoint_Plan.pdf` - RESTful API endpoint specifications
 - `RaceDay_DatabaseScript.sql` - SQL Server database creation script
 
