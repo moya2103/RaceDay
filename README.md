@@ -6,8 +6,10 @@ RaceDay is a full-stack web-based event management system designed specifically 
 
 ## System Roles
 
- **Organiser**: Can create, edit, and delete events, manage categories, capture participant results, and view all enrolments
- **Participant**: Can create an account, browse events, enrol by selecting a category, view own enrolments, and track personal results
+ **Organiser**
+ Can create, edit, and delete events, manage categories, capture participant results, and view all enrolments
+ **Participant**
+ Can create an account, browse events, enrol by selecting a category, view own enrolments, and track personal results
 
 ## Documentation
 
@@ -20,7 +22,6 @@ All planning documents are in the `/docs` folder:
 ## CI/CD Status
 
 ![CI/CD Build](https://github.com/moya2103/RaceDay/blob/main/.github/workflows/ci-success.png)
-
 
 ## Setup Instructions
 
