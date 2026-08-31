@@ -1,0 +1,67 @@
+name: CI/CD Pipeline - Part 1
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Check docs folder exists
+      run: |
+        if [ ! -d "docs" ]; then
+          echo "❌ docs folder not found!"
+          exit 1
+        fi
+        echo "✅ docs folder found"
+    
+    - name: Check ERD.pdf exists
+      run: |
+        if [ ! -f "docs/ERD.pdf" ]; then
+          echo "ERD.pdf not found!"
+          exit 1
+        fi
+        echo "ERD.pdf found"
+    
+    - name: Check API_Endpoint_Plan.pdf exists
+      run: |
+        if [ ! -f "docs/API_Endpoint_Plan.pdf" ]; then
+          echo "API_Endpoint_Plan.pdf not found!"
+          exit 1
+        fi
+        echo "API_Endpoint_Plan.pdf found"
+    
+    - name: Check RaceDay_DatabaseScript.sql exists
+      run: |
+        if [ ! -f "docs/RaceDay_DatabaseScript.sql" ]; then
+          echo "RaceDay_DatabaseScript.sql not found!"
+          exit 1
+        fi
+        echo "RaceDay_DatabaseScript.sql found"
+    
+    - name: Check README.md exists
+      run: |
+        if [ ! -f "README.md" ]; then
+          echo "README.md not found!"
+          exit 1
+        fi
+        echo "README.md found"
+    
+    - name: Check .gitignore exists
+      run: |
+        if [ ! -f ".gitignore" ]; then
+          echo ".gitignore not found!"
+          exit 1
+        fi
+        echo ".gitignore found"
+    
+    - name: All checks passed
+      run: |
+        echo "✅ All validation checks passed!"
+        echo "📁 Repository structure is valid for Part 1"
