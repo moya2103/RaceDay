@@ -14,7 +14,9 @@ RaceDay is a full-stack web-based event management system designed specifically 
  **Participant**
  Can create an account
  Browse events 
- Enrol by selecting a category, view own enrolments, and track personal results
+ Enrol by selecting a category 
+ View own enrolments
+ Track personal results
 
 ## Documentation
 
