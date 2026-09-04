@@ -1,5 +1,8 @@
 # RaceDay Event Management System
 
+## Video Presentation LINK
+![MY YOUTUBE VIDEO](https://youtu.be/5B4qITjjqjs)
+
 ## Project Overview
 
 RaceDay is a full-stack web-based event management system designed specifically for the South African road running, walking, and cycling community. The platform allows Event Organisers to create and manage events, categories, and participant results, while Participants can browse upcoming events, enrol, and track their personal performance history.
